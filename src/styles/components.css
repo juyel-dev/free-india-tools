@@ -1,0 +1,41 @@
+/* Custom styles for specific components */
+
+/* Tool card image container */
+.tool-card-image {
+  @apply relative overflow-hidden rounded-t-lg;
+}
+
+/* Search component styles */
+.search-component {
+  @apply relative;
+}
+
+/* Modal overlay */
+.modal-overlay {
+  @apply fixed inset-0 bg-black bg-opacity-50 z-40;
+}
+
+/* Toast container */
+.toast-container {
+  @apply fixed bottom-4 right-4 z-50 space-y-2 w-80;
+}
+
+/* Custom checkbox */
+.checkbox-custom {
+  @apply h-4 w-4 text-saffron focus:ring-saffron rounded;
+}
+
+/* Custom radio */
+.radio-custom {
+  @apply h-4 w-4 text-saffron focus:ring-saffron;
+}
+
+/* Custom file input */
+.file-input-custom {
+  @apply block w-full text-sm text-gray-500
+    file:mr-4 file:py-2 file:px-4
+    file:rounded-md file:border-0
+    file:text-sm file:font-semibold
+    file:bg-saffron file:text-white
+    hover:file:bg-orange-600;
+}
