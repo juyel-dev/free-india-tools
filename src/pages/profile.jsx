@@ -34,7 +34,7 @@ const Profile = () => {
   if (!user) return null;
 
   const stats = [
-    { label: 'Tools Submitted', value: userTools.length, icon: Tool },
+    { label: 'Tools Submitted', value: userTools.length, icon: Settings },
     {
       label: 'Average Rating',
       value: userTools.length
