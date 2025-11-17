@@ -2,7 +2,6 @@ import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import {
   LayoutDashboard,
-  Tool,
   Users,
   Settings,
   Image as ImageIcon,
@@ -15,7 +14,8 @@ const Sidebar = () => {
 
   const navItems = [
     { to: '/admin', icon: LayoutDashboard, label: 'Dashboard' },
-    { to: '/admin/tools', icon: Tool, label: 'Tools' },
+    // Tools icon removed or replaced — using Settings as requested
+    { to: '/admin/tools', icon: Settings, label: 'Tools' },
     { to: '/admin/users', icon: Users, label: 'Users' },
     { to: '/admin/banners', icon: ImageIcon, label: 'Banners' },
     { to: '/admin/analytics', icon: BarChart2, label: 'Analytics' },
