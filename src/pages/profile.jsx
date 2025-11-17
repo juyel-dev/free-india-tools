@@ -8,7 +8,7 @@ import {
   User,
   Mail,
   Globe,
-  Tool,
+  Settings,
   Star,
   Eye,
   Award,
